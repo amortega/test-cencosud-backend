@@ -1,0 +1,55 @@
+{
+  "name": "test-backend",
+  "version": "0.0.1",
+  "description": "Backend para prueba de conocimiento Cencosud.",
+  "keywords": [
+    "loopback-application",
+    "loopback"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": "16 || 18 || 20"
+  },
+  "scripts": {
+    "build": "lb-tsc",
+    "build:watch": "lb-tsc --watch",
+    "pretest": "npm run rebuild",
+    "premigrate": "npm run build",
+    "migrate": "node ./dist/migrate",
+    "preopenapi-spec": "npm run build",
+    "openapi-spec": "node ./dist/openapi-spec",
+    "prestart": "npm run rebuild",
+    "start": "node -r source-map-support/register .",
+    "clean": "lb-clean dist *.tsbuildinfo .eslintcache",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Andrés Ortega <arguello.25018@gmail.com>",
+  "license": "",
+  "files": [
+    "README.md",
+    "dist",
+    "src",
+    "!*/__tests__"
+  ],
+  "dependencies": {
+    "@loopback/boot": "^6.1.1",
+    "@loopback/core": "^5.1.1",
+    "@loopback/repository": "^6.1.1",
+    "@loopback/rest": "^13.1.1",
+    "@loopback/rest-explorer": "^6.1.1",
+    "@loopback/service-proxy": "^6.1.1",
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@loopback/build": "^10.1.1",
+    "@loopback/testlab": "^6.1.1",
+    "@types/node": "^16.18.38",
+    "source-map-support": "^0.5.21",
+    "typescript": "~5.1.6"
+  }
+}
