@@ -1,0 +1,16 @@
+{
+  "ids": {
+    "Todo": 8
+  },
+  "models": {
+    "User": {
+      "1": "{\"id\":1,\"full_name\":\"Andrés Ortega\",\"email\":\"arguello.25018@gmail.com\",\"city\":\"Santiago\"}",
+      "2": "{\"id\":2,\"full_name\":\"Juanito Pérez\",\"email\":\"juanito@gmail.com\",\"city\":\"Valparaiso\"}",
+      "3": "{\"id\":3,\"full_name\":\"Pedro Pérez\",\"email\":\"pedro@gmail.com\",\"city\":\"Araucanía\"}",
+      "4": "{\"id\":4,\"full_name\":\"Jose Ramón\",\"email\":\"jose@gmail.com\",\"city\":\"Chillán\"}",
+      "5": "{\"id\":5,\"full_name\":\"Felipe Pérez\",\"email\":\"felipe@gmail.com\",\"city\":\"Santiago\"}",
+      "6": "{\"id\":6,\"full_name\":\"Claudio Martínez\",\"email\":\"claudio@gmail.com\",\"city\":\"Paine\"}",
+      "7": "{\"id\":7,\"full_name\":\"Andrea Muñoz\",\"email\":\"andrea@gmail.com\",\"city\":\"Santiago\"}"
+    }
+  }
+}
